@@ -17,7 +17,9 @@ def D_Division(num_1, num_2):
     return num_1 / num_2
 
 #user choosing the operation
-
+while True:
+    print ( " Choose your desired operation.\n If Addition, press A. If Subtraction, press S. If Multiplication, press M. If Division, press D. ")
+    user_choice = input(" >>> ")
     #if addition
         #print sum
 
