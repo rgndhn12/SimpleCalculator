@@ -46,8 +46,12 @@ while True:
         #print product
             print(" The product of two numbers is >>> ", the_prod)
 
-
     #if division
+        if user_choice == "D":
+            the_quo = D_Division(num_1, num_2)
+
         #print quotient
+        print(" The quotient of two numbers is >>> ", the_quo)
+
 
 #note: do not forget to add exception handling
