@@ -33,8 +33,12 @@ while True:
             print(" The sum of two numbers is >>> ", the_sum)
 
     #if subtraction
-        #print difference
+        if user_choice == "S":
+            the_diff = S_Subtraction(num_1, num_2)
 
+        #print difference
+            print(" The difference of two numbers is >>> ", the_diff)
+            
     #if multiplication
         #print product
 
