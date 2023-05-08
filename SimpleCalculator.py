@@ -26,7 +26,11 @@ while True:
         num_2 = float(input( " Enter your second number: "))
 
     #if addition
+        if user_choice == "A":
+            the_sum = A_Addition(num_1, num_2)  
+
         #print sum
+            print(" The sum of two numbers is >>> ", the_sum)
 
     #if subtraction
         #print difference
