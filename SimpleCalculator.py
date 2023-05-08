@@ -10,6 +10,9 @@ def A_Addition(num_1, num_2):
 def S_Subtraction(num_1, num_2):
     return num_1 - num_2
 
+def M_Multiplication(num_1, num_2):
+    return num_1 * num_2
+
 #user choosing the operation
 
     #if addition
