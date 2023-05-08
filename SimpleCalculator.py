@@ -19,7 +19,12 @@ def D_Division(num_1, num_2):
 #user choosing the operation
 while True:
     print ( " Choose your desired operation.\n If Addition, press A. If Subtraction, press S. If Multiplication, press M. If Division, press D. ")
-    user_choice = input(" >>> ")
+    user_choice = input(" >>> ").upper()
+
+    if user_choice in ["A", "S", "M", "D"]:
+        num_1 = float(input( " Enter your first number: "))
+        num_2 = float(input( " Enter your second number: "))
+
     #if addition
         #print sum
 
