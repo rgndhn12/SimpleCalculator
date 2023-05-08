@@ -7,6 +7,9 @@ print ( " You may choose your desired Operation!\n A. Addition\n S. Subtraction\
 def A_Addition(num_1, num_2):
     return num_1 + num_2
 
+def S_Subtraction(num_1, num_2):
+    return num_1 - num_2
+
 #user choosing the operation
 
     #if addition
