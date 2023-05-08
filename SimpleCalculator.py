@@ -38,9 +38,14 @@ while True:
 
         #print difference
             print(" The difference of two numbers is >>> ", the_diff)
-            
+
     #if multiplication
+        if user_choice == "M":
+            the_prod = M_Multiplication(num_1, num_2)
+
         #print product
+            print(" The product of two numbers is >>> ", the_prod)
+
 
     #if division
         #print quotient
