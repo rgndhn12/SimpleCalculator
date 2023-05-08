@@ -27,31 +27,35 @@ while True:
 
     #if addition
         if user_choice == "A":
-            the_sum = A_Addition(num_1, num_2)  
+            the_result = A_Addition(num_1, num_2)  
 
         #print sum
-            print(" The sum of two numbers is >>> ", the_sum)
-
+            print(" The sum of two numbers is >>> ", the_result)
+        
     #if subtraction
-        if user_choice == "S":
-            the_diff = S_Subtraction(num_1, num_2)
+        elif user_choice == "S":
+            the_result = S_Subtraction(num_1, num_2)
 
         #print difference
-            print(" The difference of two numbers is >>> ", the_diff)
+            print(" The difference of two numbers is >>> ", the_result)
 
     #if multiplication
-        if user_choice == "M":
-            the_prod = M_Multiplication(num_1, num_2)
+        elif user_choice == "M":
+            the_result = M_Multiplication(num_1, num_2)
 
         #print product
-            print(" The product of two numbers is >>> ", the_prod)
+            print(" The product of two numbers is >>> ", the_result)
 
     #if division
-        if user_choice == "D":
-            the_quo = D_Division(num_1, num_2)
+        elif user_choice == "D":
+            the_result = D_Division(num_1, num_2)
 
         #print quotient
-        print(" The quotient of two numbers is >>> ", the_quo)
+            print(" The quotient of two numbers is >>> ", the_result)
+        
+        break
+    else: 
+        print (" Invalid. ")
 
 
 #note: do not forget to add exception handling
