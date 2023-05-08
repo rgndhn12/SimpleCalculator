@@ -1,6 +1,7 @@
 # Dahan, Regine Fae M. BSCPE 1-5 ( Simple Calculator: Exception Handling )
 
 #introducing the operations
+print ( " You may choose your desired Operation!\n A. Addition\n S. Subtraction\n M. Multiplication\n D. Division ")
 
 #each operation's calculation
 
