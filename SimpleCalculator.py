@@ -4,6 +4,8 @@
 print ( " You may choose your desired Operation!\n A. Addition\n S. Subtraction\n M. Multiplication\n D. Division ")
 
 #each operation's calculation
+def A_Addition(num_1, num_2):
+    return num_1 + num_2
 
 #user choosing the operation
 
